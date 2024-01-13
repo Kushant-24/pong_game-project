@@ -10,5 +10,3 @@ class Pong(Turtle):
         self.setheading(random.choice(directions))
         # self.shapesize(stretch_len=0.8,stretch_wid=0.8)
         self.speed(2)
-    def ball_motion(self):
-        self.forward(10)
